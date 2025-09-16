@@ -1,0 +1,47 @@
+# 환경 설정
+.env
+.env.local
+.env.production
+*.env
+
+# 민감한 데이터
+data/orders/*
+data/customers/*
+!data/orders/.gitkeep
+!data/customers/.gitkeep
+
+# 로그 파일
+*.log
+logs/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 에디터 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 임시 파일
+*.tmp
+temp/
+tmp/
+
+# Node modules (나중에 사용할 경우)
+node_modules/
+package-lock.json
+
+# 빌드 파일
+dist/
+build/
+
+# 백업 파일
+*.backup
+*.bak
+
+# 테스트 데이터
+test-data/
+*.test.json

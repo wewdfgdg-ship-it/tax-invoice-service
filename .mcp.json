@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "nano-banana-mcp": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "C:\\Users\\tip12\\Documents\\banana\\server.py"
+      ],
+      "env": {
+        "GOOGLE_API_KEY": "${GOOGLE_API_KEY}",
+        "NB_MCP_OUT": "C:\\Users\\tip12\\Documents\\banana\\_out"
+      },
+      "cwd": "C:\\Users\\tip12\\Documents\\banana"
+    }
+  }
+}

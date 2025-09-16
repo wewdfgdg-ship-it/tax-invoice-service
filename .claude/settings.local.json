@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\Users\\tip12\\Documents\\vvv/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

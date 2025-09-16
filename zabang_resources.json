@@ -1,0 +1,1304 @@
+{
+  "resources": {
+    "images": [
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/menu_img_01.png",
+        "size": "71.8 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "204x204",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/menu_img_02.png",
+        "size": "58.1 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "204x204",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/menu_img_03.png",
+        "size": "76.7 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "204x204",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/menu_img_04.png",
+        "size": "72.5 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "204x204",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/menu_img_06.png",
+        "size": "70.2 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "204x204",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/menu_img_07.png",
+        "size": "68.0 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "204x204",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/24?20241029142220",
+        "size": "602.4 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "1920x1000",
+        "alt_text": "자연의 시원함을 담은 나만의 맞춤 충전재",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/88?20241210133105",
+        "size": "935.7 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "1920x1000",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/27?20250106131600",
+        "size": "765.9 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "1920x1000",
+        "alt_text": "자방 더블레이어 에어칩 베개",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/26?20250107150505",
+        "size": "644.7 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "1920x1000",
+        "alt_text": "열감은 배출하고 시원함은 그대로",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/24?20241029142220",
+        "size": "602.4 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "1920x1000",
+        "alt_text": "자연의 시원함을 담은 나만의 맞춤 충전재",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/88?20241210133105",
+        "size": "935.7 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "1920x1000",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/30?20241029125646",
+        "size": "530.6 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "780x1305",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/89?20241210133214",
+        "size": "554.5 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "780x1305",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/33?20250106131858",
+        "size": "571.8 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "780x1305",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/32?20250107150413",
+        "size": "563.3 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "780x1305",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/30?20241029125646",
+        "size": "530.6 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "780x1305",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/89?20241210133214",
+        "size": "554.5 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "780x1305",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/image/main_video_01.jpg",
+        "size": "100.2 KB",
+        "type": "jpg",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: mbtimg, id: )",
+        "dimensions": "508x296",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/46?20241210150930",
+        "size": "43.0 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "300x278",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/47?20241210150939",
+        "size": "42.0 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "300x278",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/48?20241210150952",
+        "size": "40.2 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "300x278",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/49?20241210150946",
+        "size": "41.5 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "300x278",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/41?20241220142953",
+        "size": "129.4 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "400x600",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/42?20241220143402",
+        "size": "133.6 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "400x600",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/banner_dt/43?20241220142357",
+        "size": "147.6 KB",
+        "type": "unknown",
+        "purpose": "Banner/Hero image",
+        "location": "img element (class: , id: )",
+        "dimensions": "400x600",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/editor/2412/thumb-b82f7c0e41c411f727d6d5b612284e10_1734940245_4445_490x415.jpg",
+        "size": "0 B",
+        "type": "jpg",
+        "purpose": "Thumbnail",
+        "location": "img element (class: , id: )",
+        "dimensions": "Unknown",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/shop/img/s_star5.png",
+        "size": "1.8 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: sit_star, id: )",
+        "dimensions": "164x30",
+        "alt_text": "별점 5점",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/editor/2411/thumb-d63023c0683e4148199f2c2752ae2a77_1731981203_0053_490x415.jpg",
+        "size": "0 B",
+        "type": "jpg",
+        "purpose": "Thumbnail",
+        "location": "img element (class: , id: )",
+        "dimensions": "Unknown",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/shop/img/s_star5.png",
+        "size": "1.8 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: sit_star, id: )",
+        "dimensions": "164x30",
+        "alt_text": "별점 5점",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/editor/2411/thumb-d63023c0683e4148199f2c2752ae2a77_1731981101_5602_490x415.jpg",
+        "size": "0 B",
+        "type": "jpg",
+        "purpose": "Thumbnail",
+        "location": "img element (class: , id: )",
+        "dimensions": "Unknown",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/shop/img/s_star5.png",
+        "size": "1.8 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: sit_star, id: )",
+        "dimensions": "164x30",
+        "alt_text": "별점 5점",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/editor/2410/thumb-5d094566fd310be7ddc7c4a5394107e4_1730335272_7218_490x415.jpg",
+        "size": "0 B",
+        "type": "jpg",
+        "purpose": "Thumbnail",
+        "location": "img element (class: , id: )",
+        "dimensions": "Unknown",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/shop/img/s_star5.png",
+        "size": "1.8 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: sit_star, id: )",
+        "dimensions": "164x30",
+        "alt_text": "별점 5점",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/btn_more.png",
+        "size": "959 B",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "19x19",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/btn_more.png",
+        "size": "959 B",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "19x19",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/btn_more.png",
+        "size": "959 B",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "19x19",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/image/tail_sns_01.png",
+        "size": "2.9 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "90x90",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/image/tail_sns_02.png",
+        "size": "2.9 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "90x90",
+        "alt_text": "",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/image/tail_sns_03.png",
+        "size": "2.6 KB",
+        "type": "png",
+        "purpose": "Content image",
+        "location": "img element (class: , id: )",
+        "dimensions": "90x90",
+        "alt_text": "",
+        "loading": "auto"
+      }
+    ],
+    "css_backgrounds": [
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_1st, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_bt, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_bt, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_bt, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_1st, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_1st, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_1st, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_bt, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_1st, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_1st, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/mobile/gnb_bg.png",
+        "size": "Unknown",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "button element (class: sub_ct_toggle ct_op sub_ct_toggle_bt, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "50% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "31px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/img/btn_next.gif",
+        "size": "Unknown",
+        "type": "gif",
+        "purpose": "CSS background image",
+        "location": "a element (class: , id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "21px 17px",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/visual_next_on.png",
+        "size": "412 B",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "div element (class: swiper-button-next swiper-button-next-pc, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "100% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/visual_prev_on.png",
+        "size": "426 B",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "div element (class: swiper-button-prev swiper-button-prev-pc, id: )",
+        "css_properties": {
+          "size": "auto",
+          "position": "0% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/visual_next_on.png",
+        "size": "412 B",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "div element (class: swiper-button-next swiper-button-next-mobile, id: )",
+        "css_properties": {
+          "size": "30px",
+          "position": "100% 50%",
+          "repeat": "no-repeat"
+        }
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/image/visual_prev_on.png",
+        "size": "426 B",
+        "type": "png",
+        "purpose": "CSS background image",
+        "location": "div element (class: swiper-button-prev swiper-button-prev-mobile, id: )",
+        "css_properties": {
+          "size": "30px",
+          "position": "0% 50%",
+          "repeat": "no-repeat"
+        }
+      }
+    ],
+    "logos_icons": [
+      {
+        "url": "https://zabang.co.kr/data/common/logo_img",
+        "size": "2.7 KB",
+        "type": "unknown",
+        "purpose": "Logo/Brand image",
+        "location": "img element (class: , id: )",
+        "dimensions": "150x28",
+        "alt_text": "자방",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/data/common/mobile_logo_img",
+        "size": "2.7 KB",
+        "type": "unknown",
+        "purpose": "Logo/Brand image",
+        "location": "img element (class: , id: )",
+        "dimensions": "150x28",
+        "alt_text": "자방 메인",
+        "loading": "auto"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/image/logo_green.png",
+        "size": "4.5 KB",
+        "type": "png",
+        "purpose": "Logo/Brand image",
+        "location": "img element (class: , id: )",
+        "dimensions": "250x48",
+        "alt_text": "",
+        "loading": "auto"
+      }
+    ],
+    "videos_audio": [],
+    "fonts": [],
+    "other_media": [
+      {
+        "url": "https://zabang.co.kr/theme/zabang/css/default_shop.css?ver=2303229",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/js/font-awesome/css/font-awesome.min.css?ver=2303229",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/js/owlcarousel/owl.carousel.css?ver=2303229",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/skin/outlogin/shop_basic_mobile/style.css?ver=2303229",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/skin/outlogin/shop_side/style.css?ver=2303229",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/skin/shop/daon/style.css?ver=2303229",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/skin/latest/daon_shop_basic/style.css?ver=2303229",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/css_js/font.css?ver=2303229",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/css_js/css.php?fname=Y29tbW9u&type=css&token=V2VkbmVzZGF5M3Jkb2ZTZXB0ZW1iZXIyMDI1MDQ6MzM6MDdQTV8xNzU2ODg0Nzg3",
+        "size": "Unknown",
+        "type": "php",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/css_js/swiper.min.css",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/css_js/core.min.css",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/css_js/animate.css",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://zabang.co.kr/theme/zabang/shop/html/css_js/magnific-popup.css",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      },
+      {
+        "url": "https://kit-free.fontawesome.com/releases/v6.4.2/css/free.min.css",
+        "size": "Unknown",
+        "type": "css",
+        "rel": "stylesheet",
+        "media": "all",
+        "sizes": {},
+        "purpose": "Linked resource (stylesheet)",
+        "location": "HTML head section"
+      }
+    ]
+  },
+  "network_summary": {
+    "total_requests": 71,
+    "unique_urls": 70
+  }
+}

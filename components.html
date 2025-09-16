@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롤링핀 디자인 시스템 - 컴포넌트 데모</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <style>
+        .demo-section {
+            margin: 40px 0;
+            padding: 30px;
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-md);
+            background: var(--bg-white);
+        }
+        
+        .demo-title {
+            font-size: var(--font-size-xl);
+            font-weight: var(--font-weight-semibold);
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-main);
+        }
+        
+        .demo-subtitle {
+            font-size: var(--font-size-md);
+            font-weight: var(--font-weight-medium);
+            color: var(--text-secondary);
+            margin: 20px 0 15px 0;
+        }
+        
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .demo-flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        
+        .demo-code {
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: var(--radius-sm);
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            margin: 10px 0;
+            border-left: 4px solid var(--primary-main);
+            overflow-x: auto;
+        }
+        
+        .color-swatch {
+            width: 80px;
+            height: 80px;
+            border-radius: var(--radius-sm);
+            display: inline-block;
+            margin: 5px;
+            border: 1px solid var(--border-light);
+            position: relative;
+        }
+        
+        .color-label {
+            position: absolute;
+            bottom: -25px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+        
+        .spacing-demo {
+            background: var(--primary-main);
+            color: white;
+            display: inline-block;
+            margin: 5px;
+            text-align: center;
+            line-height: 40px;
+            min-width: 80px;
+            border-radius: var(--radius-sm);
+        }
+        
+        .nav-bar {
+            background: var(--bg-white);
+            box-shadow: var(--shadow-small);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            margin-bottom: 30px;
+        }
+        
+        .nav-container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 var(--spacing-lg);
+            display: flex;
+            align-items: center;
+            height: 70px;
+        }
+        
+        .nav-logo {
+            font-size: var(--font-size-lg);
+            font-weight: var(--font-weight-bold);
+            color: var(--primary-main);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            margin-left: auto;
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-link {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: var(--font-weight-medium);
+            transition: color var(--transition-fast);
+        }
+        
+        .nav-link:hover {
+            color: var(--primary-main);
+        }
+        
+        @media (max-width: 768px) {
+            .demo-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .demo-flex {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">롤링핀 디자인 시스템</a>
+            <div class="nav-links">
+                <a href="#headers" class="nav-link">헤더</a>
+                <a href="#carousels" class="nav-link">캐러셀</a>
+                <a href="#cards" class="nav-link">카드</a>
+                <a href="#forms" class="nav-link">폼</a>
+                <a href="#buttons" class="nav-link">버튼</a>
+                <a href="#colors" class="nav-link">컬러</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 컨테이너 -->
+    <div class="container">
+        <!-- 헤더 섹션 -->
+        <div id="header-demo"></div>
+        
+        <!-- 헤더 컴포넌트 섹션 -->
+        <section id="headers" class="demo-section">
+            <h2 class="demo-title">📋 헤더 컴포넌트</h2>
+            
+            <h3 class="demo-subtitle">Simple Header</h3>
+            <div id="simple-header-demo" style="margin-bottom: 40px; position: relative; z-index: 1;"></div>
+            
+            <h3 class="demo-subtitle">Business Header</h3>
+            <div id="business-header-demo" style="margin-bottom: 40px; position: relative; z-index: 1;"></div>
+            
+            <h3 class="demo-subtitle">Hero Header 1 - 그라디언트 배경</h3>
+            <div id="hero1-header-demo" style="margin-bottom: 40px; position: relative; z-index: 1;"></div>
+            
+            <h3 class="demo-subtitle">Hero Header 2 - 이미지 배경 + 오버레이</h3>
+            <div id="hero2-header-demo" style="margin-bottom: 40px; position: relative; z-index: 1;"></div>
+            
+            <h3 class="demo-subtitle">Hero Header 3 - 다크 그라디언트</h3>
+            <div id="hero3-header-demo" style="margin-bottom: 40px; position: relative; z-index: 1;"></div>
+            
+            <h3 class="demo-subtitle">Hero Header 4 - 라이트 테마 + 이미지</h3>
+            <div id="hero4-header-demo" style="margin-bottom: 40px; position: relative; z-index: 1;"></div>
+        </section>
+
+        <!-- 캐러셀 컴포넌트 섹션 -->
+        <section id="carousels" class="demo-section">
+            <h2 class="demo-title">🎠 캐러셀 컴포넌트</h2>
+            
+            <h3 class="demo-subtitle">Basic Image Carousel</h3>
+            <div id="basic-carousel-demo"></div>
+            
+            <h3 class="demo-subtitle">Card Carousel</h3>
+            <div id="card-carousel-demo"></div>
+            
+            <h3 class="demo-subtitle">Hero Carousel</h3>
+            <div id="hero-carousel-demo"></div>
+        </section>
+        
+        <!-- 카드 컴포넌트 섹션 -->
+        <section id="cards" class="demo-section">
+            <h2 class="demo-title">🃏 카드 컴포넌트</h2>
+            
+            <h3 class="demo-subtitle">Product Card</h3>
+            <div id="product-card-demo"></div>
+            
+            <h3 class="demo-subtitle">Article Card</h3>
+            <div id="article-card-demo"></div>
+            
+            <h3 class="demo-subtitle">Profile Card</h3>
+            <div id="profile-card-demo"></div>
+        </section>
+        
+        <!-- 컬러 팔레트 섹션 -->
+        <section id="colors" class="demo-section">
+            <h2 class="demo-title">🎨 컬러 시스템</h2>
+            
+            <h3 class="demo-subtitle">Primary Colors</h3>
+            <div id="primary-colors"></div>
+            
+            <h3 class="demo-subtitle">Secondary Colors</h3>
+            <div id="secondary-colors"></div>
+            
+            <h3 class="demo-subtitle">Background Colors</h3>
+            <div id="background-colors"></div>
+            
+            <h3 class="demo-subtitle">Text Colors</h3>
+            <div id="text-colors"></div>
+        </section>
+
+        <!-- 타이포그래피 섹션 -->
+        <section id="typography" class="demo-section">
+            <h2 class="demo-title">📝 타이포그래피</h2>
+            
+            <h3 class="demo-subtitle">Headings</h3>
+            <div id="headings-demo"></div>
+            
+            <h3 class="demo-subtitle">Text Variants</h3>
+            <div id="text-demo"></div>
+            
+            <h3 class="demo-subtitle">Links & Lists</h3>
+            <div id="links-lists-demo"></div>
+        </section>
+
+        <!-- 버튼 섹션 -->
+        <section id="buttons" class="demo-section">
+            <h2 class="demo-title">🔘 버튼 컴포넌트</h2>
+            
+            <h3 class="demo-subtitle">Button Variants</h3>
+            <div id="button-variants"></div>
+            
+            <h3 class="demo-subtitle">Button Sizes</h3>
+            <div id="button-sizes"></div>
+            
+            <h3 class="demo-subtitle">Button States</h3>
+            <div id="button-states"></div>
+            
+            <h3 class="demo-subtitle">Button Groups</h3>
+            <div id="button-groups"></div>
+        </section>
+
+        <!-- 폼 섹션 -->
+        <section id="forms" class="demo-section">
+            <h2 class="demo-title">📋 폼 컴포넌트</h2>
+            
+            <h3 class="demo-subtitle">Input Fields</h3>
+            <div id="input-demo"></div>
+            
+            <h3 class="demo-subtitle">Select & Textarea</h3>
+            <div id="select-textarea-demo"></div>
+            
+            <h3 class="demo-subtitle">Checkboxes & Radio</h3>
+            <div id="checkbox-radio-demo"></div>
+            
+            <h3 class="demo-subtitle">Complete Form Example</h3>
+            <div id="complete-form-demo"></div>
+        </section>
+
+
+        <!-- 레이아웃 섹션 -->
+        <section id="layout" class="demo-section">
+            <h2 class="demo-title">📐 레이아웃 시스템</h2>
+            
+            <h3 class="demo-subtitle">Containers</h3>
+            <div id="container-demo"></div>
+            
+            <h3 class="demo-subtitle">Grid System</h3>
+            <div id="grid-demo"></div>
+            
+            <h3 class="demo-subtitle">Section Components</h3>
+            <div id="section-demo"></div>
+            
+            <h3 class="demo-subtitle">Spacing System</h3>
+            <div id="spacing-demo"></div>
+        </section>
+
+        <!-- 사용법 가이드 -->
+        <section class="demo-section">
+            <h2 class="demo-title">📚 사용법 가이드</h2>
+            <div class="demo-code">
+// 컴포넌트 import
+import Button from './components/Button.js';
+import Typography from './components/Typography.js';
+import Form from './components/Form.js';
+import Card from './components/Card.js';
+
+// 사용 예시
+const button = new Button();
+const primaryBtn = button.create({
+    text: '확인',
+    variant: 'primary',
+    size: 'large',
+    onClick: () => console.log('클릭됨!')
+});
+
+const typography = new Typography();
+const heading = typography.createHeading({
+    text: '롤링핀 베이커리',
+    level: 'h1',
+    color: 'primary'
+});
+
+document.body.appendChild(primaryBtn);
+document.body.appendChild(heading);
+            </div>
+        </section>
+    </div>
+
+    <!-- 컴포넌트 스크립트 -->
+    <script type="module">
+        import Button from './components/ui/Button.js';
+        import Typography from './components/ui/Typography.js';
+        import Form from './components/ui/Form.js';
+        import Header from './components/ui/Header.js';
+        import Carousel from './components/ui/Carousel.js';
+        import Card from './components/ui/Card.js';
+
+        // 컴포넌트 인스턴스 생성
+        const button = new Button();
+        const typography = new Typography();
+        const form = new Form();
+        const header = new Header();
+        const carousel = new Carousel();
+        const card = new Card();
+
+        // 헤더 데모
+        function createHeaderDemo() {
+            const container = document.getElementById('header-demo');
+            
+            const header = typography.createHeading({
+                text: '롤링핀 디자인 시스템',
+                level: 'h1',
+                color: 'primary',
+                align: 'center'
+            });
+            
+            const subtitle = typography.createText({
+                text: 'NO.1 베이커리 카페를 위한 통합 UI 컴포넌트 라이브러리',
+                variant: 'lead',
+                align: 'center',
+                color: 'secondary'
+            });
+            
+            container.appendChild(header);
+            container.appendChild(subtitle);
+        }
+
+        // 컬러 팔레트 데모
+        function createColorDemo() {
+            const colors = {
+                primary: {
+                    'Primary Main': 'var(--primary-main)',
+                    'Primary Light': 'var(--primary-light)',
+                    'Primary Dark': 'var(--primary-dark)'
+                },
+                secondary: {
+                    'Secondary Main': 'var(--secondary-main)',
+                    'Secondary Dark': 'var(--secondary-dark)'
+                },
+                background: {
+                    'White': 'var(--bg-white)',
+                    'Light': 'var(--bg-light)',
+                    'Cream': 'var(--bg-cream)',
+                    'Dark': 'var(--bg-dark)'
+                },
+                text: {
+                    'Primary': 'var(--text-primary)',
+                    'Secondary': 'var(--text-secondary)',
+                    'Tertiary': 'var(--text-tertiary)',
+                    'Accent': 'var(--text-accent)'
+                }
+            };
+
+            Object.keys(colors).forEach(category => {
+                const container = document.getElementById(`${category}-colors`);
+                Object.entries(colors[category]).forEach(([name, color]) => {
+                    const swatch = document.createElement('div');
+                    swatch.className = 'color-swatch';
+                    swatch.style.backgroundColor = color;
+                    
+                    const label = document.createElement('div');
+                    label.className = 'color-label';
+                    label.textContent = name;
+                    
+                    const wrapper = document.createElement('div');
+                    wrapper.style.position = 'relative';
+                    wrapper.style.display = 'inline-block';
+                    wrapper.appendChild(swatch);
+                    wrapper.appendChild(label);
+                    
+                    container.appendChild(wrapper);
+                });
+            });
+        }
+
+        // 타이포그래피 데모
+        function createTypographyDemo() {
+            // 헤딩 데모
+            const headingsContainer = document.getElementById('headings-demo');
+            ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].forEach(level => {
+                const heading = typography.createHeading({
+                    text: `Heading ${level.toUpperCase()} - 롤링핀 베이커리`,
+                    level: level
+                });
+                headingsContainer.appendChild(heading);
+            });
+
+            // 텍스트 데모
+            const textContainer = document.getElementById('text-demo');
+            ['body', 'lead', 'small', 'caption'].forEach(variant => {
+                const text = typography.createText({
+                    text: `${variant.charAt(0).toUpperCase() + variant.slice(1)} 텍스트 예시 - 신선한 빵과 달콤한 디저트를 만나보세요.`,
+                    variant: variant
+                });
+                textContainer.appendChild(text);
+            });
+
+            // 링크와 리스트 데모
+            const linksContainer = document.getElementById('links-lists-demo');
+            
+            const link = typography.createLink({
+                text: '롤링핀 홈페이지 방문하기',
+                href: '#',
+                color: 'accent'
+            });
+            
+            const list = typography.createList({
+                items: [
+                    '신선한 베이커리 제품',
+                    '프리미엄 커피와 음료',
+                    '아늑한 카페 분위기',
+                    '친절한 서비스'
+                ],
+                type: 'ul'
+            });
+
+            const quote = typography.createBlockquote({
+                text: '맛있는 빵과 따뜻한 서비스로 고객의 하루를 특별하게 만듭니다.',
+                author: '롤링핀 CEO'
+            });
+            
+            linksContainer.appendChild(link);
+            linksContainer.appendChild(list);
+            linksContainer.appendChild(quote);
+        }
+
+        // 버튼 데모
+        function createButtonDemo() {
+            // 버튼 variants
+            const variantsContainer = document.getElementById('button-variants');
+            const variants = ['primary', 'secondary', 'ghost'];
+            
+            variants.forEach(variant => {
+                const btn = button.create({
+                    text: `${variant.charAt(0).toUpperCase() + variant.slice(1)} 버튼`,
+                    variant: variant,
+                    onClick: () => alert(`${variant} 버튼 클릭됨!`)
+                });
+                variantsContainer.appendChild(btn);
+            });
+
+            // 버튼 sizes
+            const sizesContainer = document.getElementById('button-sizes');
+            const sizes = ['small', 'medium', 'large', 'xlarge'];
+            
+            sizes.forEach(size => {
+                const btn = button.create({
+                    text: `${size.charAt(0).toUpperCase() + size.slice(1)}`,
+                    variant: 'primary',
+                    size: size
+                });
+                sizesContainer.appendChild(btn);
+            });
+
+            // 버튼 states
+            const statesContainer = document.getElementById('button-states');
+            
+            const normalBtn = button.create({
+                text: '일반 버튼',
+                variant: 'primary'
+            });
+            
+            const disabledBtn = button.create({
+                text: '비활성화',
+                variant: 'primary',
+                disabled: true
+            });
+            
+            const loadingBtn = button.create({
+                text: '로딩',
+                variant: 'secondary',
+                loading: true
+            });
+            
+            const iconBtn = button.create({
+                text: '아이콘 버튼',
+                variant: 'ghost',
+                icon: 'fas fa-heart'
+            });
+            
+            statesContainer.appendChild(normalBtn);
+            statesContainer.appendChild(disabledBtn);
+            statesContainer.appendChild(loadingBtn);
+            statesContainer.appendChild(iconBtn);
+
+            // 버튼 groups
+            const groupsContainer = document.getElementById('button-groups');
+            
+            const buttonGroup = button.createGroup([
+                { text: '이전', variant: 'ghost' },
+                { text: '다음', variant: 'primary' }
+            ], { direction: 'horizontal' });
+            
+            groupsContainer.appendChild(buttonGroup);
+        }
+
+        // 폼 데모
+        function createFormDemo() {
+            // Input fields
+            const inputContainer = document.getElementById('input-demo');
+            
+            const textInput = form.createInput({
+                type: 'text',
+                label: '이름',
+                placeholder: '이름을 입력하세요',
+                required: true
+            });
+            
+            const emailInput = form.createInput({
+                type: 'email',
+                label: '이메일',
+                placeholder: 'example@email.com',
+                helper: '유효한 이메일 주소를 입력하세요'
+            });
+            
+            const errorInput = form.createInput({
+                type: 'text',
+                label: '에러 예시',
+                placeholder: '에러 상태',
+                error: '필수 입력 항목입니다'
+            });
+            
+            inputContainer.appendChild(textInput);
+            inputContainer.appendChild(emailInput);
+            inputContainer.appendChild(errorInput);
+
+            // Select & Textarea & 새로운 3가지 입력 필드
+            const selectContainer = document.getElementById('select-textarea-demo');
+            
+            const select = form.createSelect({
+                label: '지역 선택',
+                options: [
+                    { value: 'seoul', label: '서울' },
+                    { value: 'busan', label: '부산' },
+                    { value: 'daegu', label: '대구' },
+                    { value: 'incheon', label: '인천' }
+                ],
+                helper: '거주 지역을 선택하세요'
+            });
+            
+            const textarea = form.createTextarea({
+                label: '메시지',
+                placeholder: '문의 내용을 입력하세요',
+                rows: 4
+            });
+
+            // 새로운 3가지 입력 필드
+            const searchInput = form.createSearchInput({
+                placeholder: '매장명이나 지역명으로 검색하세요',
+                onSearch: (value) => alert(`'${value}' 검색 실행!`),
+                onChange: (value) => console.log('Search input:', value)
+            });
+
+            const fileUpload = form.createFileUpload({
+                label: '메뉴 이미지 업로드',
+                accept: 'image/*',
+                multiple: true,
+                maxSize: 5,
+                onChange: (files) => console.log('Selected files:', files)
+            });
+
+            const tagInput = form.createTagInput({
+                label: '메뉴 태그',
+                placeholder: '태그를 입력하고 Enter를 누르세요 (예: 베이커리, 디저트)',
+                tags: ['베이커리', '브런치'],
+                maxTags: 8,
+                onChange: (tags) => console.log('Current tags:', tags)
+            });
+            
+            selectContainer.appendChild(select);
+            selectContainer.appendChild(textarea);
+            selectContainer.appendChild(searchInput);
+            selectContainer.appendChild(fileUpload);
+            selectContainer.appendChild(tagInput);
+
+            // Checkbox & Radio
+            const checkboxContainer = document.getElementById('checkbox-radio-demo');
+            
+            const checkbox = form.createCheckbox({
+                label: '개인정보 처리방침에 동의합니다',
+                checked: false
+            });
+            
+            const radioGroup = form.createRadioGroup({
+                name: 'contact-method',
+                label: '선호하는 연락 방법',
+                options: [
+                    { value: 'email', label: '이메일' },
+                    { value: 'phone', label: '전화' },
+                    { value: 'sms', label: '문자메시지' }
+                ],
+                value: 'email'
+            });
+            
+            checkboxContainer.appendChild(checkbox);
+            checkboxContainer.appendChild(radioGroup);
+
+            // Complete form - 간단한 폼 예제로 변경
+            const completeFormContainer = document.getElementById('complete-form-demo');
+            
+            const formWrapper = document.createElement('div');
+            formWrapper.style.backgroundColor = 'var(--bg-white)';
+            formWrapper.style.padding = 'var(--spacing-xl)';
+            formWrapper.style.borderRadius = 'var(--radius-md)';
+            formWrapper.style.border = '1px solid var(--border-light)';
+            formWrapper.style.boxShadow = 'var(--shadow-medium)';
+            
+            const formTitle = document.createElement('h3');
+            formTitle.textContent = '가맹점 문의 신청';
+            formTitle.style.fontSize = 'var(--font-size-xl)';
+            formTitle.style.fontWeight = 'var(--font-weight-semibold)';
+            formTitle.style.color = 'var(--text-primary)';
+            formTitle.style.marginBottom = 'var(--spacing-lg)';
+            formTitle.style.margin = '0 0 var(--spacing-lg) 0';
+            formWrapper.appendChild(formTitle);
+            
+            // 폼 요소들 추가
+            const formElements = [
+                form.createInput({
+                    type: 'text',
+                    label: '이름',
+                    placeholder: '이름을 입력하세요',
+                    required: true
+                }),
+                form.createInput({
+                    type: 'tel',
+                    label: '연락처',
+                    placeholder: '010-0000-0000'
+                }),
+                form.createSelect({
+                    label: '관심 지역',
+                    options: ['서울', '부산', '대구', '인천', '기타']
+                }),
+                form.createTextarea({
+                    label: '문의 내용',
+                    placeholder: '가맹점 개설 관련 문의사항을 입력하세요',
+                    rows: 3
+                }),
+                form.createCheckbox({
+                    label: '개인정보 수집 및 이용에 동의합니다'
+                }),
+                button.create({
+                    text: '문의 신청',
+                    variant: 'primary',
+                    size: 'large'
+                })
+            ];
+            
+            formElements.forEach(element => {
+                formWrapper.appendChild(element);
+            });
+            
+            completeFormContainer.appendChild(formWrapper);
+        }
+
+
+        // 레이아웃 데모
+        function createLayoutDemo() {
+            // Container demo
+            const containerDemo = document.getElementById('container-demo');
+            
+            const containers = ['fluid', 'contained', 'narrow', 'wide'];
+            containers.forEach(type => {
+                const container = document.createElement('div');
+                container.style.background = 'var(--bg-light)';
+                container.style.padding = 'var(--spacing-md)';
+                container.style.marginBottom = '20px';
+                container.style.borderRadius = 'var(--radius-md)';
+                container.innerHTML = `
+                    <p style="margin: 0; text-align: center; color: var(--text-primary);">
+                        ${type.charAt(0).toUpperCase() + type.slice(1)} Container
+                    </p>
+                `;
+                containerDemo.appendChild(container);
+            });
+
+            // Grid demo
+            const gridDemo = document.getElementById('grid-demo');
+            
+            const grid = document.createElement('div');
+            grid.style.display = 'grid';
+            grid.style.gridTemplateColumns = 'repeat(auto-fit, minmax(200px, 1fr))';
+            grid.style.gap = 'var(--gap-md)';
+            
+            for (let i = 1; i <= 6; i++) {
+                const gridItem = document.createElement('div');
+                gridItem.style.background = 'var(--bg-cream)';
+                gridItem.style.padding = 'var(--padding-lg)';
+                gridItem.style.borderRadius = 'var(--radius-md)';
+                gridItem.style.border = '1px solid var(--border-light)';
+                gridItem.innerHTML = `
+                    <h4 style="margin: 0 0 8px 0; color: var(--text-primary);">그리드 아이템 ${i}</h4>
+                    <p style="margin: 0; color: var(--text-secondary); font-size: var(--font-size-sm);">그리드 시스템 데모입니다.</p>
+                `;
+                grid.appendChild(gridItem);
+            }
+            
+            gridDemo.appendChild(grid);
+
+            // Section demo
+            const sectionDemo = document.getElementById('section-demo');
+            
+            const demoSection = document.createElement('section');
+            demoSection.style.background = 'var(--bg-cream)';
+            demoSection.style.padding = 'var(--padding-xl)';
+            demoSection.style.borderRadius = 'var(--radius-lg)';
+            demoSection.innerHTML = `
+                <h3 style="margin: 0 0 8px 0; color: var(--text-primary); font-size: var(--font-size-lg);">섹션 타이틀</h3>
+                <p style="margin: 0 0 16px 0; color: var(--text-secondary); font-size: var(--font-size-md);">섹션 부제목입니다</p>
+                <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">이것은 섹션 컴포넌트의 예시입니다. 제목, 부제목, 그리고 내용을 포함할 수 있습니다.</p>
+            `;
+            
+            sectionDemo.appendChild(demoSection);
+
+            // Spacing demo
+            const spacingDemo = document.getElementById('spacing-demo');
+            const spacings = ['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl'];
+            
+            spacings.forEach(spacing => {
+                const demo = document.createElement('div');
+                demo.className = 'spacing-demo';
+                demo.textContent = spacing.toUpperCase();
+                demo.style.padding = `var(--spacing-${spacing})`;
+                spacingDemo.appendChild(demo);
+            });
+        }
+
+        // 새로운 데모 함수들 추가
+        function createHeadersDemo() {
+            // Simple Header
+            const simpleContainer = document.getElementById('simple-header-demo');
+            const simpleHeader = header.create({
+                variant: 'simple',
+                logo: '롤링핀 카페',
+                navigation: [
+                    { text: '홈', href: '#' },
+                    { text: '메뉴', href: '#menu' },
+                    { text: '매장찾기', href: '#stores' },
+                    { text: '이벤트', href: '#events' }
+                ],
+                sticky: false
+            });
+            simpleContainer.appendChild(simpleHeader);
+
+            // Business Header  
+            const businessContainer = document.getElementById('business-header-demo');
+            const businessHeader = header.create({
+                variant: 'business',
+                logo: '롤링핀 베이커리 & 카페',
+                logoSize: 'large',
+                navigation: [
+                    { text: '브랜드소개', href: '#about' },
+                    { text: '프리미엄 메뉴', href: '#menu' },
+                    { text: '매장정보', href: '#stores' },
+                    { text: '가맹문의', href: '#franchise', onClick: () => alert('가맹문의 클릭!') }
+                ],
+                sticky: false
+            });
+            businessContainer.appendChild(businessHeader);
+
+            // Hero Header 1
+            const hero1Container = document.getElementById('hero1-header-demo');
+            const heroHeader1 = header.create({
+                variant: 'hero1',
+                logo: '롤링핀',
+                navigation: [
+                    { text: '홈', href: '#' },
+                    { text: '메뉴', href: '#menu' },
+                    { text: '매장찾기', href: '#stores' }
+                ],
+                title: '신선한 베이커리의 새로운 시작',
+                subtitle: '매일 아침 갓 구운 빵과 프리미엄 커피로 특별한 하루를 시작하세요',
+                cta: {
+                    text: '메뉴 보기',
+                    onClick: () => alert('메뉴 보기 클릭!')
+                },
+                sticky: false
+            });
+            hero1Container.appendChild(heroHeader1);
+
+            // Hero Header 2
+            const hero2Container = document.getElementById('hero2-header-demo');
+            const heroHeader2 = header.create({
+                variant: 'hero2',
+                logo: '롤링핀',
+                navigation: [
+                    { text: '브랜드소개', href: '#about' },
+                    { text: '매장정보', href: '#stores' },
+                    { text: '연락처', href: '#contact' }
+                ],
+                title: '프리미엄 베이커리 카페',
+                subtitle: '전통적인 레시피와 현대적인 감각이 만나 탄생한 특별한 맛의 공간',
+                backgroundImage: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1200&h=700&fit=crop',
+                cta: {
+                    text: '매장 찾기',
+                    onClick: () => alert('매장 찾기 클릭!')
+                },
+                sticky: false
+            });
+            hero2Container.appendChild(heroHeader2);
+
+            // Hero Header 3
+            const hero3Container = document.getElementById('hero3-header-demo');
+            const heroHeader3 = header.create({
+                variant: 'hero3',
+                logo: '롤링핀',
+                navigation: [
+                    { text: '가맹점 혜택', href: '#benefits' },
+                    { text: '가맹 절차', href: '#process' },
+                    { text: '문의하기', href: '#contact' }
+                ],
+                title: '가맹점 사업의 새로운 기준',
+                subtitle: '성공적인 베이커리 카페 사업을 위한 완벽한 파트너십을 제공합니다',
+                cta: {
+                    text: '가맹 문의하기',
+                    onClick: () => alert('가맹 문의 클릭!')
+                },
+                sticky: false
+            });
+            hero3Container.appendChild(heroHeader3);
+
+            // Hero Header 4
+            const hero4Container = document.getElementById('hero4-header-demo');
+            const heroHeader4 = header.create({
+                variant: 'hero4',
+                logo: '롤링핀',
+                navigation: [
+                    { text: '케이터링 메뉴', href: '#catering-menu' },
+                    { text: '예약하기', href: '#booking' },
+                    { text: '포트폴리오', href: '#portfolio' }
+                ],
+                title: '특별한 순간을 위한 케이터링',
+                subtitle: '소중한 행사와 모임을 더욱 특별하게 만들어드리는 프리미엄 케이터링 서비스',
+                backgroundImage: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=1200&h=580&fit=crop',
+                cta: {
+                    text: '케이터링 문의',
+                    onClick: () => alert('케이터링 문의 클릭!')
+                },
+                sticky: false
+            });
+            hero4Container.appendChild(heroHeader4);
+        }
+
+        function createCarouselsDemo() {
+            // Basic Carousel
+            const basicContainer = document.getElementById('basic-carousel-demo');
+            const basicCarousel = carousel.createBasic({
+                images: [
+                    'https://via.placeholder.com/800x400/FFC522/FFFFFF?text=신선한+빵+매일+제조',
+                    'https://via.placeholder.com/800x400/8A3B15/FFFFFF?text=프리미엄+원두+커피',
+                    'https://via.placeholder.com/800x400/F9F6EA/333333?text=아늑한+카페+분위기'
+                ],
+                autoplay: true
+            });
+            basicContainer.appendChild(basicCarousel);
+
+            // Card Carousel
+            const cardContainer = document.getElementById('card-carousel-demo');
+            const cardCarousel = carousel.createCards({
+                cards: [
+                    {
+                        type: 'card',
+                        image: 'https://via.placeholder.com/300x200/FFC522/FFFFFF?text=크루아상',
+                        title: '버터 크루아상',
+                        description: '프랑스 전통 방식으로 만든 바삭한 크루아상',
+                        price: '3,500원'
+                    },
+                    {
+                        type: 'card',
+                        image: 'https://via.placeholder.com/300x200/8A3B15/FFFFFF?text=아메리카노',
+                        title: '시그니처 아메리카노',
+                        description: '엄선된 원두로 추출한 깊은 맛의 커피',
+                        price: '4,500원'
+                    },
+                    {
+                        type: 'card',
+                        image: 'https://via.placeholder.com/300x200/F9F6EA/333333?text=치즈케이크',
+                        title: '뉴욕 치즈케이크',
+                        description: '진한 크림치즈의 부드러운 케이크',
+                        price: '6,500원'
+                    }
+                ]
+            });
+            cardContainer.appendChild(cardCarousel);
+
+            // Hero Carousel
+            const heroContainer = document.getElementById('hero-carousel-demo');
+            const heroCarousel = carousel.createHero({
+                slides: [
+                    {
+                        type: 'hero',
+                        backgroundImage: 'https://via.placeholder.com/1200x400/FFC522/FFFFFF?text=롤링핀+베이커리',
+                        title: '매일 새벽 5시, 갓 구운 빵',
+                        subtitle: '신선함이 다른 롤링핀만의 특별한 베이커리를 경험하세요',
+                        cta: { text: '메뉴 보기', action: () => alert('메뉴 보기!') }
+                    },
+                    {
+                        type: 'hero',
+                        backgroundImage: 'https://via.placeholder.com/1200x400/8A3B15/FFFFFF?text=프리미엄+커피',
+                        title: '세계 각지의 프리미엄 원두',
+                        subtitle: '바리스타가 정성스럽게 내린 완벽한 한 잔을 만나보세요',
+                        cta: { text: '커피 메뉴', action: () => alert('커피 메뉴!') }
+                    },
+                    {
+                        type: 'hero',
+                        backgroundImage: 'https://via.placeholder.com/1200x400/F9F6EA/333333?text=가맹점+모집',
+                        title: '성공적인 사업의 시작',
+                        subtitle: '롤링핀과 함께 꿈꾸던 카페 사업을 현실로 만들어보세요',
+                        cta: { text: '가맹 문의', action: () => alert('가맹 문의!') }
+                    }
+                ],
+                autoplay: true,
+                autoplaySpeed: 4000
+            });
+            heroContainer.appendChild(heroCarousel);
+        }
+
+        function createCardsDemo() {
+            // 플레이스홀더 이미지 생성 함수
+            function createPlaceholderImage(width, height, text, bgColor = '#D4A574', textColor = '#8B4513') {
+                const canvas = document.createElement('canvas');
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext('2d');
+                
+                // 배경
+                ctx.fillStyle = bgColor;
+                ctx.fillRect(0, 0, width, height);
+                
+                // 텍스트
+                ctx.fillStyle = textColor;
+                ctx.font = 'bold 24px var(--font-primary)';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(text, width/2, height/2);
+                
+                return canvas.toDataURL();
+            }
+
+            // Product Card
+            const productContainer = document.getElementById('product-card-demo');
+            const productCard = card.createProductCard({
+                image: createPlaceholderImage(400, 300, '🥐 크루아상'),
+                title: '시그니처 크루아상',
+                description: '매일 아침 직접 만드는 정통 프랑스식 버터 크루아상입니다. 바삭한 겉면과 부드러운 속살의 조화를 즐기세요.',
+                price: '4,500원',
+                category: 'NEW',
+                cta: {
+                    text: '장바구니 담기',
+                    onClick: () => alert('크루아상을 장바구니에 담았습니다!')
+                }
+            });
+            productContainer.appendChild(productCard);
+
+            // Article Card  
+            const articleContainer = document.getElementById('article-card-demo');
+            const articleCard = card.createArticleCard({
+                image: createPlaceholderImage(400, 250, '👨‍🍳 베이킹 클래스'),
+                title: '베이킹 클래스 오픈!',
+                description: '전문 파티시에와 함께하는 홈베이킹 클래스가 새롭게 오픈했습니다. 기초부터 고급 과정까지 다양한 프로그램을 만나보세요.',
+                date: '2024.03.15',
+                category: '이벤트',
+                cta: {
+                    text: '자세히 보기',
+                    onClick: () => alert('베이킹 클래스 상세 페이지로 이동합니다!')
+                }
+            });
+            articleContainer.appendChild(articleCard);
+
+            // Profile Card
+            const profileContainer = document.getElementById('profile-card-demo');
+            const profileCard = card.createProfileCard({
+                image: createPlaceholderImage(300, 300, '👩‍🍳', '#F5E6D3', '#8B4513'),
+                title: '김미영 셰프',
+                description: '프랑스 르 코르동 블루 졸업 후 15년간의 베이킹 경험을 바탕으로 정성스럽게 만든 디저트를 선보입니다.',
+                role: '수석 파티시에',
+                cta: {
+                    text: '프로필 보기',
+                    onClick: () => alert('김미영 셰프 상세 프로필을 확인합니다!')
+                }
+            });
+            profileContainer.appendChild(profileCard);
+        }
+
+        // 모든 데모 실행
+        createHeaderDemo();
+        createHeadersDemo();
+        createCarouselsDemo();
+        createCardsDemo();
+        createColorDemo();
+        createTypographyDemo();
+        createButtonDemo();
+        createFormDemo();
+        createLayoutDemo();
+
+        // 스크롤 이벤트로 네비게이션 하이라이트
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('section[id]');
+
+        window.addEventListener('scroll', () => {
+            let currentSection = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (scrollY >= sectionTop) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.style.color = 'var(--text-primary)';
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.style.color = 'var(--primary-main)';
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
