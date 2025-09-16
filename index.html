@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세금계산서 발행 서비스</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .feature h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .feature p {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-top: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .admin-links {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .admin-links h3 {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+
+        .admin-button {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .admin-button:hover {
+            background: #218838;
+            transform: translateY(-2px);
+        }
+
+        .admin-button.secondary {
+            background: #6c757d;
+        }
+
+        .admin-button.secondary:hover {
+            background: #5a6268;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧾 세금계산서 발행 서비스</h1>
+        <p class="subtitle">
+            홈택스 세금계산서 발행을 간편하게!<br>
+            복잡한 절차 없이 빠르고 정확하게 처리합니다.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>빠른 처리</h3>
+                <p>자동화된 시스템으로 빠르게 세금계산서를 발행합니다</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <h3>안전한 보안</h3>
+                <p>모든 데이터는 암호화되어 안전하게 처리됩니다</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <h3>체계적인 관리</h3>
+                <p>발행 내역을 체계적으로 관리하고 조회할 수 있습니다</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💼</div>
+                <h3>전문적인 서비스</h3>
+                <p>세무 전문가의 검증을 거친 정확한 서비스</p>
+            </div>
+        </div>
+
+        <a href="#" class="cta-button">지금 시작하기</a>
+
+        <div class="admin-links">
+            <h3>관리자 페이지</h3>
+            <a href="/admin" class="admin-button">관리자 대시보드</a>
+            <a href="/customer" class="admin-button secondary">고객 관리</a>
+            <a href="/api" class="admin-button secondary">API 문서</a>
+        </div>
+    </div>
+</body>
+</html>
